@@ -1,0 +1,22 @@
+.export_btn,.search_btn {
+    background:darkgreen;
+    border: none;
+    color: white;
+}
+.export_btn:hover,.search_btn:hover{
+    background: violet;
+}
+.dropdown_btn {
+    background: none !important;
+    border: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown_btn:hover {
+    color: blue !important;
+}
